@@ -1,8 +1,8 @@
 package com.leetcode.bryan;
 
 import com.leetcode.bryan.easy.SumofSquareNumbers;
+import com.leetcode.bryan.hard.VerifyPreorderSerializationofaBinaryTree;
 import com.leetcode.bryan.medium.GraphValidTree;
-
 
 public class Main {
 
@@ -20,8 +20,9 @@ public class Main {
         //boolean rlt = c.isPrefixString(s, words);
         //MinimumTimetoTypeWordUsingSpecialTypewriter m = new MinimumTimetoTypeWordUsingSpecialTypewriter();
         //m.minTimeToType("zjpc");
-        SumofSquareNumbers s = new SumofSquareNumbers();
-        s.judgeSquareSum(2);
+        //SumofSquareNumbers s = new SumofSquareNumbers();
+        //s.judgeSquareSum(2);
+
 
     // medium
         //ContainerWithMostWater.maxArea();
@@ -99,6 +100,9 @@ public class Main {
                         {3,4,4,1,3,6,3,3,9,9},
                         {6,9,9,3,8,7,9,6,10,6} };
         int val = m.minimizeTheDifference(mat, 5);*/
+        VerifyPreorderSerializationofaBinaryTree v = new VerifyPreorderSerializationofaBinaryTree();
+        String order = "9,9,9,#,9,9,9,9,9,9,#,#,9,#,#,#,#,9,9,9,9,#,9,#,9,#,#,#,#,9,9,#,9,#,#,9,9,#,#,9,9,#,9,#,#,9,#,#,9,9,9,9,#,9,#,#,9,9,#,#,9,9,9,#,#,9,#,#,9,#,#,9,#,#,#,9,9,9,9,9,9,#,9,9,9,#,#,#,#,9,#,#,9,9,#,9,#,9,#,9,9,#,#,#,9,9,9,#,9,9,9,#,#,#,9,#,#,9,9,#,9,#,#,9,9,#,#,9,#,#,9,#,#,9,9,#,9,9,#,#,#,9,9,#,#,#,9,9,9,#,9,9,#,9,#,#,#,9,#,9,#,9,#,#,9,9,#,9,#,9,#,#,9,9,#,#,9,9,#,9,9,#,#,#,9,#,9,9,#,9,#,9,#,#,#,9,9,9,9,9,9,9,#,#,#,9,9,9,#,9,#,#,#,9,#,#,#,9,9,#,#,9,9,#,#,9,9,9,9,#,#,#,9,#,#,#,9,9,#,#,#,9,9,#,#,#,9,9,9,9,9,9,#,#,9,#,9,#,#,9,#,#,9,9,9,#,#,#,9,#,9,#,#,9,9,#,9,#,9,9,9,#,#,9,#,#,#,9,#,9,#,#,9,#,9,9,#,#,9,#,#";
+        v.isValidSerialization(order);
 
     //hard
         //FirstMissingPositive.firstMissingPositive();
