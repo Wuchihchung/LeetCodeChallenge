@@ -1,5 +1,6 @@
 package com.leetcode.bryan.easy;
 
+
 /**
  * https://leetcode.com/problems/excel-sheet-column-title/
  *
@@ -10,7 +11,6 @@ package com.leetcode.bryan.easy;
  *    這部份很不順, 有機會要再想一下, 是不是改除以27會比較順
  *
  * Time : O(log(26, n)), 應該可以算是constant time
- *
  */
 
 public class ExcelSheetColumnTitle {

@@ -2,6 +2,7 @@ package com.leetcode.bryan.medium;
 
 import java.util.HashMap;
 
+
 public class DecodeWays {
     private HashMap<String, Integer> mem = new HashMap<>();
 

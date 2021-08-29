@@ -1,5 +1,6 @@
 package com.leetcode.bryan.easy;
 
+
 /**
  * https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/616/week-4-august-22nd-august-28th/3918/
  *

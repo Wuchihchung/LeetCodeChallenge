@@ -1,7 +1,12 @@
-package com.leetcode.bryan.hard;
+package com.leetcode.bryan.medium;
 
 import java.util.Arrays;
 import java.util.HashMap;
+
+
+/**
+ *
+ */
 
 public class VerifyPreorderSerializationofaBinaryTree {
     HashMap<String, Boolean> map;

@@ -1,6 +1,5 @@
 package com.leetcode.bryan.easy;
 
-import java.util.Locale;
 
 /**
  * https://leetcode.com/contest/biweekly-contest-59/problems/minimum-time-to-type-word-using-special-typewriter/

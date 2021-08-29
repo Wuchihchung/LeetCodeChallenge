@@ -1,7 +1,7 @@
 package com.leetcode.bryan.hard;
 
 
-/* Question : 給定一個沒有sort過的int array, 裏面可能有0, 負整數, 正整數
+/** Question : 給定一個沒有sort過的int array, 裏面可能有0, 負整數, 正整數
  *            求最小的missing正整數
  *
  *       Ex :

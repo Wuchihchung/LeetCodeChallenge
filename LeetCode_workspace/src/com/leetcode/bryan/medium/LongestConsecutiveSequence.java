@@ -3,6 +3,7 @@ package com.leetcode.bryan.medium;
 import java.util.HashSet;
 import java.util.Set;
 
+
 /**
  * https://leetcode.com/problems/longest-consecutive-sequence/
  *

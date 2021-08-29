@@ -1,5 +1,6 @@
 package com.leetcode.bryan.easy;
 
+
 public class ReplaceAllMarktoAvoidConsecutiveRepeatingCharacters {
     String s = "z?a";
 

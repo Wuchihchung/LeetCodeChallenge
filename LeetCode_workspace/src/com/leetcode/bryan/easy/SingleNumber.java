@@ -2,6 +2,7 @@ package com.leetcode.bryan.easy;
 
 import java.util.HashMap;
 
+
 /**
  * https://leetcode.com/problems/single-number/
  *
