@@ -1,6 +1,8 @@
 package com.leetcode.bryan;
 
 import com.leetcode.bryan.common.TreeNode;
+import com.leetcode.bryan.medium.FindMinimuminRotatedSortedArray;
+import com.leetcode.bryan.medium.PatchingArray;
 import com.leetcode.bryan.medium.VerifyPreorderSerializationofaBinaryTree;
 
 
@@ -158,6 +160,10 @@ public class Main {
         /*PartitionArrayintoDisjointIntervals p = new PartitionArrayintoDisjointIntervals();
         int rlt = p.partitionDisjoint();*/
 
+        /*PatchingArray p = new PatchingArray();
+        int[] nums = {1, 2, 31, 33};
+        int rlt = p.minPatches(nums, 2147483647);*/
+
         /*PopulatingNextRightPointersinEachNode p = new PopulatingNextRightPointersinEachNode();
         p.connect();*/
 
@@ -179,6 +185,9 @@ public class Main {
         String order = "9,9,9,#,9,9,9,9,9,9,#,#,9,#,#,#,#,9,9,9,9,#,9,#,9,#,#,#,#,9,9,#,9,#,#,9,9,#,#,9,9,#,9,#,#,9,#,#,9,9,9,9,#,9,#,#,9,9,#,#,9,9,9,#,#,9,#,#,9,#,#,9,#,#,#,9,9,9,9,9,9,#,9,9,9,#,#,#,#,9,#,#,9,9,#,9,#,9,#,9,9,#,#,#,9,9,9,#,9,9,9,#,#,#,9,#,#,9,9,#,9,#,#,9,9,#,#,9,#,#,9,#,#,9,9,#,9,9,#,#,#,9,9,#,#,#,9,9,9,#,9,9,#,9,#,#,#,9,#,9,#,9,#,#,9,9,#,9,#,9,#,#,9,9,#,#,9,9,#,9,9,#,#,#,9,#,9,9,#,9,#,9,#,#,#,9,9,9,9,9,9,9,#,#,#,9,9,9,#,9,#,#,#,9,#,#,#,9,9,#,#,9,9,#,#,9,9,9,9,#,#,#,9,#,#,#,9,9,#,#,#,9,9,#,#,#,9,9,9,9,9,9,#,#,9,#,9,#,#,9,#,#,9,9,9,#,#,#,9,#,9,#,#,9,9,#,9,#,9,9,9,#,#,9,#,#,#,9,#,9,#,#,9,#,9,9,#,#,9,#,#";
         v.isValidSerialization(order);*/
 
+        FindMinimuminRotatedSortedArray f = new FindMinimuminRotatedSortedArray();
+        int[] nums = {4,5,6,7,0,1,2};
+        int rlt = f.findMin(nums);
 
     //hard
         //FirstMissingPositive.firstMissingPositive();
