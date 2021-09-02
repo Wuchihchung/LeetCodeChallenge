@@ -1,4 +1,5 @@
-package com.leetcode.bryan.easy;
+package com.leetcode.bryan.medium;
+
 
 /**
  * https://leetcode.com/explore/featured/card/september-leetcoding-challenge-2021/636/week-1-september-1st-september-7th/3960/

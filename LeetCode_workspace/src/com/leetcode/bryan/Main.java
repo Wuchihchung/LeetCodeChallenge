@@ -1,25 +1,28 @@
 package com.leetcode.bryan;
 
 import com.leetcode.bryan.common.TreeNode;
-import com.leetcode.bryan.medium.FindMinimuminRotatedSortedArray;
-import com.leetcode.bryan.medium.PatchingArray;
-import com.leetcode.bryan.medium.VerifyPreorderSerializationofaBinaryTree;
+import com.leetcode.bryan.medium.EqualTreePartition;
+import com.leetcode.bryan.medium.MaximumAverageSubtree;
 
 
 public class Main {
 
     public static void main(String[] args) {
     // test data
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.right = new TreeNode(3);
-        root.left.left = new TreeNode(4);
-        root.left.right = new TreeNode(5);
-        root.right.left = new TreeNode(6);
-        root.right.right = new TreeNode(7);
+        TreeNode root = new TreeNode(0);
+        //root.left = new TreeNode(6);
+        root.right = new TreeNode(1);
+        //root.left.left = new TreeNode(4);
+        //root.left.right = new TreeNode(5);
+        //root.right.left = new TreeNode(6);
+        //root.right.right = new TreeNode(7);
 
 
     // easy
+        /*ArrayNesting a = new ArrayNesting();
+        int[] nums = {5,4,0,3,1,6,2};
+        int rlt = a.arrayNesting(nums);*/
+
         /*CheckIfStringIsaPrefixofArray c = new CheckIfStringIsaPrefixofArray();
         String s = "iloveleetcode";
         String words[] = {"app", "i","love","leetcode","apples"};
@@ -77,6 +80,10 @@ public class Main {
         d.delNodes(root, to_delete);*/
 
         //String rlt = FindAndReplaceinString.findReplaceString();
+
+        /*FindMinimuminRotatedSortedArray f = new FindMinimuminRotatedSortedArray();
+        int[] nums = {4,5,6,7,0,1,2};
+        int rlt = f.findMin(nums);*/
 
         /*FindtheKthLargestIntegerintheArray f = new FindtheKthLargestIntegerintheArray();
         String[] nums = {"3", "6", "7", "10"};
@@ -184,10 +191,11 @@ public class Main {
         /*VerifyPreorderSerializationofaBinaryTree v = new VerifyPreorderSerializationofaBinaryTree();
         String order = "9,9,9,#,9,9,9,9,9,9,#,#,9,#,#,#,#,9,9,9,9,#,9,#,9,#,#,#,#,9,9,#,9,#,#,9,9,#,#,9,9,#,9,#,#,9,#,#,9,9,9,9,#,9,#,#,9,9,#,#,9,9,9,#,#,9,#,#,9,#,#,9,#,#,#,9,9,9,9,9,9,#,9,9,9,#,#,#,#,9,#,#,9,9,#,9,#,9,#,9,9,#,#,#,9,9,9,#,9,9,9,#,#,#,9,#,#,9,9,#,9,#,#,9,9,#,#,9,#,#,9,#,#,9,9,#,9,9,#,#,#,9,9,#,#,#,9,9,9,#,9,9,#,9,#,#,#,9,#,9,#,9,#,#,9,9,#,9,#,9,#,#,9,9,#,#,9,9,#,9,9,#,#,#,9,#,9,9,#,9,#,9,#,#,#,9,9,9,9,9,9,9,#,#,#,9,9,9,#,9,#,#,#,9,#,#,#,9,9,#,#,9,9,#,#,9,9,9,9,#,#,#,9,#,#,#,9,9,#,#,#,9,9,#,#,#,9,9,9,9,9,9,#,#,9,#,9,#,#,9,#,#,9,9,9,#,#,#,9,#,9,#,#,9,9,#,9,#,9,9,9,#,#,9,#,#,#,9,#,9,#,#,9,#,9,9,#,#,9,#,#";
         v.isValidSerialization(order);*/
+        /*EqualTreePartition e = new EqualTreePartition();
+        boolean rlt = e.checkEqualTree(root);*/
+        MaximumAverageSubtree m = new MaximumAverageSubtree();
+        m.maximumAverageSubtree(root);
 
-        FindMinimuminRotatedSortedArray f = new FindMinimuminRotatedSortedArray();
-        int[] nums = {4,5,6,7,0,1,2};
-        int rlt = f.findMin(nums);
 
     //hard
         //FirstMissingPositive.firstMissingPositive();
