@@ -1,14 +1,11 @@
 package com.leetcode.bryan.medium;
 
 import com.leetcode.bryan.common.TreeNode;
-
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 
 /**
- *
+ * https://leetcode.com/problems/maximum-average-subtree/
  */
 
 public class MaximumAverageSubtree {
@@ -18,7 +15,7 @@ public class MaximumAverageSubtree {
 
     public double maximumAverageSubtree(TreeNode root) {
         dfsSumOfSubtree(root, 1);
-        return 0.0;
+        return maxAverage;
     }
 
     private int dfsSumOfSubtree(TreeNode node, int id) {

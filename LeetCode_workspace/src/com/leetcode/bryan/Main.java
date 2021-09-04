@@ -1,6 +1,10 @@
 package com.leetcode.bryan;
 
+import com.leetcode.bryan.common.ListNode;
 import com.leetcode.bryan.common.TreeNode;
+import com.leetcode.bryan.easy.ReorderDatainLogFiles;
+import com.leetcode.bryan.medium.AddTwoNumbers;
+import com.leetcode.bryan.medium.AddTwoNumbersII;
 import com.leetcode.bryan.medium.EqualTreePartition;
 import com.leetcode.bryan.medium.MaximumAverageSubtree;
 
@@ -9,13 +13,22 @@ public class Main {
 
     public static void main(String[] args) {
     // test data
-        TreeNode root = new TreeNode(0);
-        //root.left = new TreeNode(6);
+        TreeNode root = new TreeNode(5);
+        root.left = new TreeNode(6);
         root.right = new TreeNode(1);
         //root.left.left = new TreeNode(4);
         //root.left.right = new TreeNode(5);
         //root.right.left = new TreeNode(6);
         //root.right.right = new TreeNode(7);
+
+        ListNode l1 = new ListNode(9);
+        l1.next = new ListNode(2);
+        l1.next.next = new ListNode(4);
+        l1.next.next.next = new ListNode(3);
+
+        ListNode l2 = new ListNode(7);
+        l2.next = new ListNode(6);
+        l2.next.next = new ListNode(4);
 
 
     // easy
@@ -44,6 +57,10 @@ public class Main {
 
         //boolean rlt = RectangleOverlap.isRectangleOverlap();
 
+        /*String[] logs = {"dig1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 art zero"};
+        ReorderDatainLogFiles r = new ReorderDatainLogFiles();
+        String[] rlt = r.reorderLogFiles(logs);*/
+
         /*ReplaceAllMarktoAvoidConsecutiveRepeatingCharacters r = new ReplaceAllMarktoAvoidConsecutiveRepeatingCharacters();
         r.modifyString();*/
 
@@ -58,6 +75,9 @@ public class Main {
 
 
     // medium
+        /*AddTwoNumbersII a = new AddTwoNumbersII();
+        a.addTwoNumbers(l1, l2);*/
+
         /*int arr[] = {-2, -2, 1, -2, -1, 2};
         ArrayofDoubledPairs a = new ArrayofDoubledPairs();
         boolean rlt = a.canReorderDoubled(arr);*/
@@ -127,6 +147,9 @@ public class Main {
         /*MaximalNetworkRank m = new MaximalNetworkRank();
         m.maximalNetworkRank();*/
 
+        /*MaximumAverageSubtree m = new MaximumAverageSubtree();
+        m.maximumAverageSubtree(root);*/
+
         //int value = MaximumErasureValue.maximumUniqueSubarray();
 
         //int rlt = MaximumLengthofaConcatenatedStringwithUniqueCharacters.maxLength();
@@ -191,10 +214,9 @@ public class Main {
         /*VerifyPreorderSerializationofaBinaryTree v = new VerifyPreorderSerializationofaBinaryTree();
         String order = "9,9,9,#,9,9,9,9,9,9,#,#,9,#,#,#,#,9,9,9,9,#,9,#,9,#,#,#,#,9,9,#,9,#,#,9,9,#,#,9,9,#,9,#,#,9,#,#,9,9,9,9,#,9,#,#,9,9,#,#,9,9,9,#,#,9,#,#,9,#,#,9,#,#,#,9,9,9,9,9,9,#,9,9,9,#,#,#,#,9,#,#,9,9,#,9,#,9,#,9,9,#,#,#,9,9,9,#,9,9,9,#,#,#,9,#,#,9,9,#,9,#,#,9,9,#,#,9,#,#,9,#,#,9,9,#,9,9,#,#,#,9,9,#,#,#,9,9,9,#,9,9,#,9,#,#,#,9,#,9,#,9,#,#,9,9,#,9,#,9,#,#,9,9,#,#,9,9,#,9,9,#,#,#,9,#,9,9,#,9,#,9,#,#,#,9,9,9,9,9,9,9,#,#,#,9,9,9,#,9,#,#,#,9,#,#,#,9,9,#,#,9,9,#,#,9,9,9,9,#,#,#,9,#,#,#,9,9,#,#,#,9,9,#,#,#,9,9,9,9,9,9,#,#,9,#,9,#,#,9,#,#,9,9,9,#,#,#,9,#,9,#,#,9,9,#,9,#,9,9,9,#,#,9,#,#,#,9,#,9,#,#,9,#,9,9,#,#,9,#,#";
         v.isValidSerialization(order);*/
+
         /*EqualTreePartition e = new EqualTreePartition();
         boolean rlt = e.checkEqualTree(root);*/
-        MaximumAverageSubtree m = new MaximumAverageSubtree();
-        m.maximumAverageSubtree(root);
 
 
     //hard
