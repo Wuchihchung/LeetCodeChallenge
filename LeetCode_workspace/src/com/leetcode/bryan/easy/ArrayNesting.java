@@ -1,4 +1,4 @@
-package com.leetcode.bryan.medium;
+package com.leetcode.bryan.easy;
 
 
 /**
